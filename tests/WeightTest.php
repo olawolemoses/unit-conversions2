@@ -13,6 +13,5 @@ class ExampleTest extends TestCase
         $lbs = Weight::fromKilograms(100)->toLBS();
         $this->assertEquals(220.4623, $lbs);
         // $this->assertTrue(true);
-
     }
 }
